@@ -1,0 +1,78 @@
+.jumbotron {
+    background-color: powderblue;
+}
+
+h1 {
+letter-spacing: 2px;}
+
+label {
+    font-weight: bold;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.meme {
+    position:relative;
+
+}
+
+img {
+    min-width: 300px;
+    max-width: 100%;
+}
+
+.textAlign {
+    position: absolute;
+    text-align:center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+
+}
+
+.topText {
+    top: 8%;
+}
+
+.bottomText {
+    bottom: 8%;
+}
+
+.memeFont {
+    font-family: Impact, sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 50px;   
+}
+
+.trashBtn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.meme:hover .trashBtn {
+    display: block;
+ }
+
+ .meme:hover {
+    opacity: 0.5;
+ }
